@@ -57,7 +57,7 @@ header .main-nav li {
 Sections
 ************/
 section {
-  background-color: #F1D302
+  background-color: #F1D302;
 }
 /***********
 Menu Items
@@ -69,7 +69,8 @@ Menu Items
 }
 
 #gallery li {
-  float: left;
+  display: inline-block;
+  vertical-align: top;
   width: 31%;
   margin: 0 1% 30px 1%;
   list-style-type: none;
@@ -80,7 +81,7 @@ Menu Items
 	width: 100%;
 }
 #gallery li a{
-  color: #F1D302;
+  color: #000;
 }
 /***********
 Footer
